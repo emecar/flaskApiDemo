@@ -1,0 +1,6 @@
+cd flask_app/
+python -m venv venv
+. venv/scripts/activate
+pip install Flask
+flask run 
+flask run --debug  //Runs in debug Mode
